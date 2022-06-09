@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/pizza-logo.png" type="favicon">
-    <title>YourPizza</title>
+    <title>Pizzeria</title>
 </head>
 
 <body>
@@ -19,18 +19,98 @@
                     </a>
                 </div>
                 <div class="header-nav__menu" id="nav-bar">
-                    <a href="#hits" class="header-nav__menu-item">Hits</a>
-                    <a href="#pizza" class="header-nav__menu-item">Pizza</a>
-                    <a href="#desserts" class="header-nav__menu-item">Desserts</a>
-                    <a href="#beverages" class="header-nav__menu-item">Beverages</a>
-                    <a href="#shipping-payment" class="header-nav__menu-item">Shipping&Payment</a>
+                    <a href="#hits" class="nav-link">Переваги</a>
+                    <a href="#pizza" class="nav-link">Піца</a>
+                    <a href="#shipping-payment" class="nav-link">Замовити</a>
                 </div>
             </div>
         </nav>
     </header>
-
-
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <main>
+        <section class="main-features-container">
+            <h1 class="main-features__header">Твоя улюблена піца</h1>
+            <div class="main-features__list">
+                <div class="features-item">
+                    <div class="feature-item__icon">
+                        <img src="img/feature-delivery.png" alt="Feature's item icon" class="item-icon">
+                    </div>
+                    <div class="feature-item__name">
+                        <p class="item-header">Доставка від 40 хвилин</p>
+                    </div>
+                </div>
+                <div class="features-item">
+                    <div class="feature-item__icon">
+                        <img src="img/feature-products.png" alt="Feature's item icon" class="item-icon">
+                    </div>
+                    <div class="feature-item__name">
+                        <p class="item-header">Якісні продукти</p>
+                    </div>
+                </div>
+                <div class="features-item">
+                    <div class="feature-item__icon">
+                        <img src="img/feature-cooking.png" alt="Feature's item icon" class="item-icon">
+                    </div>
+                    <div class="feature-item__name">
+                        <p class="item-header">Кухарі - професінали</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-pizza-container">
+            <div class="pizza-making-video" id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jPQ87J_5qyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="pizza-menu">
+                <div class="pizza-menu__header">
+                    <h2 class="pizza-menu__h2">Піца</h2>
+                    <p class="pizza-menu__p">10% іде на ЗСУ</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Маргарита</p>
+                    <p class="pizza-item__price">109 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">4 Сири</p>
+                    <p class="pizza-item__price">169 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Папероні</p>
+                    <p class="pizza-item__price">119 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Неаполітана</p>
+                    <p class="pizza-item__price">129 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Мисливська</p>
+                    <p class="pizza-item__price">129 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Гавайська</p>
+                    <p class="pizza-item__price">139 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Халапеньо</p>
+                    <p class="pizza-item__price">159 грн</p>
+                </div>
+                <div class="pizza-menu-item">
+                    <p class="pizza-item-name">Цезар з креветкою</p>
+                    <p class="pizza-item__price">229 грн</p>
+                </div>
+            </div>
+            <div class="main-delivery">
+                <form action="" class="footer__contacts" id="form">
+                    <input type="tel" name="phone" placeholder="phone" id="phone">
+                    <input type="email" name="email" placeholder="email" id="email">
+                    <button class="button-order">Order</button>
+                  </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>Copyright 2021, Original Pizzeria</small>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
