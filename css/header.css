@@ -14,9 +14,10 @@
     align-items: center;
     justify-content: space-around;
     flex: 1;
+    
 }
 
-.header-nav-img {
+#header-img {
     width: 100px;
     padding: 10px;
 }
