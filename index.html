@@ -7,27 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/pizza-logo.png" type="favicon">
     <title>Pizzeria</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header id="header">
-        <nav class="header-nav">
+        <nav class="header-nav" id="nav-bar">
             <div class="container">
                 <div class="header-nav__logo" id="header-img">
                     <a href="#">
-                        <img src="img/pizza-logo.png" alt="YourPizza logo">
+                        <img src="img/pizza-logo.png" alt="YourPizza logo" class="header-nav-img">
                     </a>
                 </div>
-                <div class="header-nav__menu" id="nav-bar">
-                    <a href="#hits" class="nav-link">Переваги</a>
-                    <a href="#pizza" class="nav-link">Піца</a>
-                    <a href="#shipping-payment" class="nav-link">Замовити</a>
+                <div class="header-nav__menu">
+                    <a href="#pizza-feature-nav" class="nav-link">Переваги</a>
+                    <a href="#main-pizza-menu-nav" class="nav-link">Піца</a>
+                    <a href="#delivery-nav" class="nav-link">Замовити</a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="main-features-container">
+        <section class="main-features-container" id="pizza-feature-nav">
             <h1 class="main-features__header">Твоя улюблена піца</h1>
             <div class="main-features__list">
                 <div class="features-item">
@@ -60,7 +61,7 @@
             <div class="pizza-making-video" id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/jPQ87J_5qyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="pizza-menu">
+            <div class="pizza-menu"  id="main-pizza-menu-nav">
                 <div class="pizza-menu__header">
                     <h2 class="pizza-menu__h2">Піца</h2>
                     <p class="pizza-menu__p">10% іде на ЗСУ</p>
@@ -98,7 +99,7 @@
                     <p class="pizza-item__price">229 грн</p>
                 </div>
             </div>
-            <div class="main-delivery">
+            <div class="main-delivery" id="delivery-nav">
                 <form action="https://www.freecodecamp.com/email-submit" class="footer__contacts" id="form">
                     <input type="email" placeholder="Enter your email adress" id="email">
                     <input type="submit" placeholder="Submit" id="submit" value="Order"">

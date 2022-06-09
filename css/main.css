@@ -1,0 +1,24 @@
+.main-features-container {
+    margin-top: 200px;
+}
+
+.main-features__header {
+    font-size: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.main-features__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.features-item,
+.pizza-making-video {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
