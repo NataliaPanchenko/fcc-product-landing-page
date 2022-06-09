@@ -58,51 +58,57 @@
             </div>
         </section>
         <section class="main-pizza-container">
-            <div class="pizza-making-video" id="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jPQ87J_5qyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="pizza-making-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jPQ87J_5qyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe></iframe>
             </div>
-            <div class="pizza-menu"  id="main-pizza-menu-nav">
+            <div class="pizza-menu-block">
                 <div class="pizza-menu__header">
                     <h2 class="pizza-menu__h2">Піца</h2>
                     <p class="pizza-menu__p">10% іде на ЗСУ</p>
                 </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Маргарита</p>
-                    <p class="pizza-item__price">109 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">4 Сири</p>
-                    <p class="pizza-item__price">169 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Папероні</p>
-                    <p class="pizza-item__price">119 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Неаполітана</p>
-                    <p class="pizza-item__price">129 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Мисливська</p>
-                    <p class="pizza-item__price">129 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Гавайська</p>
-                    <p class="pizza-item__price">139 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Халапеньо</p>
-                    <p class="pizza-item__price">159 грн</p>
-                </div>
-                <div class="pizza-menu-item">
-                    <p class="pizza-item-name">Цезар з креветкою</p>
-                    <p class="pizza-item__price">229 грн</p>
+                <div class="pizza-menu-list">
+                    <div class="pizza-menu"  id="main-pizza-menu-nav">
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Маргарита</h3>
+                            <p class="pizza-item__price">109 грн</p>
+                        </div>
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">4 Сири</h3>
+                            <p class="pizza-item__price">169 грн</p>
+                        </div>
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Папероні</h3>
+                            <p class="pizza-item__price">119 грн</p>
+                        </div>
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Неаполітана</h3>
+                            <p class="pizza-item__price">129 грн</p>
+                        </div>
+                    </div>
+                    <div class="pizza-menu"  id="main-pizza-menu-nav">
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Мисливська</h3>
+                            <p class="pizza-item__price">129 грн</p>
+                        </div>
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Гавайська</h3>
+                            <p class="pizza-item__price">139 грн</p>
+                        </div>
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Халапеньо</h3>
+                            <p class="pizza-item__price">159 грн</p>
+                        </div>
+                        <div class="pizza-menu-item">
+                            <h3 class="pizza-item-name">Цезар з креветкою</h3>
+                            <p class="pizza-item__price">229 грн</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="main-delivery" id="delivery-nav">
-                <form action="https://www.freecodecamp.com/email-submit" class="footer__contacts" id="form">
-                    <input type="email" placeholder="Enter your email adress" id="email">
-                    <input type="submit" placeholder="Submit" id="submit" value="Order"">
+                <form action="https://www.freecodecamp.com/email-submit" class="footer__contacts" id="form" target="_blank">
+                    <input type="email" placeholder="Enter your email adress" id="email" name="email">
+                    <input type="submit" placeholder="Submit" id="submit" value="Order" name="submit">
                 </form>
             </div>
         </section>
